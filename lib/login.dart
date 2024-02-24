@@ -59,7 +59,11 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ],
             ),
-            const SizedBox(height: 120.0),
+            Text(
+              'by Muhamad Fatah Rozaq - 221511018',
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 100.0),
             TextField(
               controller: _usernameController,
               decoration: InputDecoration(
@@ -102,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                       : null,
                   style: ElevatedButton.styleFrom(
                     foregroundColor: kShrineBrown900,
-                    backgroundColor: kShrinePink100,
+                    backgroundColor: kShrineGreen100,
                     elevation: 8.0,
                     shape: const BeveledRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(7.0)),

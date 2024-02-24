@@ -255,7 +255,7 @@ class _BackdropState extends State<Backdrop>
       actions: <Widget>[
         IconButton(
           icon: const Icon(
-            Icons.search,
+            Icons.logout,
             semanticLabel: 'login',
           ),
           onPressed: () {
